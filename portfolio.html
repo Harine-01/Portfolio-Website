@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harine M S | Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial; line-height: 1.6; color: #333; background: #f4f4f4; max-width: 1200px; margin: auto; padding: 20px; }
+        
+        /* Navigation - SIMPLE, no hamburger menu */
+        .navbar { background: #2c3e50; border-radius: 5px; margin-bottom: 20px; }
+        .nav-menu { display: flex; justify-content: center; list-style: none; padding: 15px; flex-wrap: wrap; }
+        .nav-menu li { margin: 0 15px; }
+        .nav-menu a { color: white; text-decoration: none; padding: 10px 15px; border-radius: 3px; }
+        .nav-menu a:hover { background-color: #3498db; }
+        
+        /* Header */
+        header { text-align: center; padding: 30px 20px; background-color: #2c3e50; color: white; border-radius: 5px; margin-bottom: 20px; }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        h2 { color: #2c3e50; margin: 20px 0 15px; padding-bottom: 5px; border-bottom: 2px solid #3498db; }
+        h3 { color: #3498db; margin: 15px 0 10px; }
+        p { margin-bottom: 10px; }
+        .contact-info { margin: 20px 0; }
+        .contact-info p { margin: 8px 0; }
+        
+        /* Sections */
+        section { background-color: white; padding: 25px; margin-bottom: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .education-item, .project-item { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+        .education-item:last-child, .project-item:last-child { border-bottom: none; }
+        
+        /* Lists */
+        .skills-list, .achievements-list, .languages-list, .certifications-list { list-style-type: none; padding-left: 10px; }
+        .skills-list li, .achievements-list li, .languages-list li, .certifications-list li { padding: 8px 0; border-bottom: 1px solid #eee; }
+        .skills-list li:last-child, .achievements-list li:last-child, .languages-list li:last-child, .certifications-list li:last-child { border-bottom: none; }
+        
+        /* Footer */
+        footer { text-align: center; padding: 25px; margin-top: 20px; color: #666; border-top: 1px solid #ddd; background: white; border-radius: 5px; }
+        
+        /* Links */
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        
+        /* Responsive - SIMPLE, no JavaScript needed */
+        @media (max-width: 768px) {
+            body { padding: 10px; }
+            .nav-menu { flex-direction: column; align-items: center; }
+            .nav-menu li { margin: 5px 0; width: 100%; text-align: center; }
+            h1 { font-size: 1.8rem; }
+            section { padding: 20px; }
+        }
+        
+        @media (max-width: 480px) {
+            h1 { font-size: 1.5rem; }
+            h2 { font-size: 1.3rem; }
+            section { padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar - SIMPLE, always visible -->
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#objective">Objective</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header/Home Section -->
+    <header id="home">
+        <h1>HARINE M S</h1>
+        <h3>Computer Science Engineer</h3>
+        <div class="contact-info">
+            <p>Email: harine.soundar@gmail.com</p>
+            <p>Phone: 9500517107</p>
+            <p>LinkedIn: <a href="http://www.linkedin.com/in/harine-m-s" target="_blank" style="color: white;">linkedin.com/in/harine-m-s</a></p>
+            <p>GitHub: <a href="https://github.com/Harine-01" target="_blank" style="color: white;">github.com/Harine-01</a></p>
+            <p>LeetCode: <a href="https://leetcode.com/profile/account/Harine_MS" target="_blank" style="color: white;">leetcode.com/Harine_MS</a></p>
+            <p>Coimbatore, Tamil Nadu</p>
+        </div>
+    </header>
+
+    <!-- Career Objective -->
+    <section id="objective">
+        <h2>CAREER OBJECTIVE</h2>
+        <p>To build strong programming and problem-solving skills as an undergraduate Computer Science and Engineering student through hands-on learning and practical exposure. I aim to apply my knowledge, gain real-world experience, and develop a solid technical foundation for a career in software development.</p>
+    </section>
+
+    <!-- Educational Qualification -->
+    <section id="education">
+        <h2>EDUCATIONAL QUALIFICATION</h2>
+        
+        <div class="education-item">
+            <h3>B.E Computer Science and Engineering</h3>
+            <p><strong>Bannari Amman Institute of Technology, Sathyamangalam</strong></p>
+            <p>Expected graduation: 2028</p>
+            <p>CGPA: 8.61 (Upon 2nd semester)</p>
+        </div>
+        
+        <div class="education-item">
+            <h3>12th Grade</h3>
+            <p><strong>Shree Saraswathi Vidhyaah Mandheer, Coimbatore</strong></p>
+            <p>Graduated: 2024</p>
+            <p>Percentage: 94%</p>
+        </div>
+        
+        <div class="education-item">
+            <h3>10th Grade</h3>
+            <p><strong>Shree Saraswathi Vidhyaah Mandheer, Coimbatore</strong></p>
+            <p>Graduated: 2022</p>
+            <p>Percentage: 97%</p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        
+        <div class="project-item">
+            <h3>Report Card Generator</h3>
+            <p><strong>Duration:</strong> August 2023 – November 2024</p>
+            <ul class="achievements-list">
+                <li>Python-based application for automated report card generation</li>
+                <li>Accepts student academic data from an Excel sheet and generates a consolidated PowerPoint (PPT) report for the entire class</li>
+                <li>Reduces manual effort, improves accuracy, and saves time</li>
+                <li>Uses Pandas for data processing</li>
+                <li>Uses Tkinter for a user-friendly GUI</li>
+                <li>Uses python-pptx for automated PPT creation</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section id="skills">
+        <h2>TECHNICAL SKILLS</h2>
+        
+        <h3>Programming Languages</h3>
+        <ul class="skills-list">
+            <li>Python (Intermediate)</li>
+            <li>C (Intermediate)</li>
+        </ul>
+        
+        <h3>Database</h3>
+        <ul class="skills-list">
+            <li>MySQL (Intermediate)</li>
+        </ul>
+        
+        <h3>Markup Language</h3>
+        <ul class="skills-list">
+            <li>HTML (Basics)</li>
+        </ul>
+    </section>
+
+    <!-- Achievements & Activities -->
+    <section id="achievements">
+        <h2>ACHIEVEMENTS & ACTIVITIES</h2>
+        
+        <h3>Achievements</h3>
+        <ul class="achievements-list">
+            <li>Zonal level U-19 2nd Runner in Kabaddi</li>
+        </ul>
+        
+        <h3>Soft Skills</h3>
+        <ul class="achievements-list">
+            <li>Critical thinking</li>
+            <li>Quick learner</li>
+            <li>Problem solving</li>
+            <li>Team Collaboration</li>
+        </ul>
+        
+        <h3>Languages</h3>
+        <ul class="languages-list">
+            <li>Tamil</li>
+            <li>English</li>
+            <li>Hindi</li>
+        </ul>
+        
+        <h3>Certifications</h3>
+        <ul class="certifications-list">
+            <li>Introduction to HTML - SimplLearn</li>
+            <li>Frontend Frenzy - Participation</li>
+        </ul>
+        
+        <h3>Extra Curricular Activities</h3>
+        <ul class="achievements-list">
+            <li>Event organizing</li>
+            <li>Volunteered in organizing hackathon - CELESTA'25</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>CONTACT</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> harine.soundar@gmail.com</p>
+            <p><strong>Phone:</strong> 9500517107</p>
+            <p><strong>Location:</strong> Coimbatore, Tamil Nadu</p>
+            <p><strong>LinkedIn:</strong> <a href="http://www.linkedin.com/in/harine-m-s" target="_blank">linkedin.com/in/harine-m-s</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/Harine-01" target="_blank">github.com/Harine-01</a></p>
+            <p><strong>LeetCode:</strong> <a href="https://leetcode.com/profile/account/Harine_MS" target="_blank">leetcode.com/Harine_MS</a></p>
+        </div>
+    </section>
+
+</body>
+</html>
